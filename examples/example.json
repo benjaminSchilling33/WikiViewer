@@ -1,0 +1,17 @@
+{
+  "wikiName": "Example 1",
+  "wikiId": "001",
+  "theme": {
+    "backgroundColor": "0xFF123456"
+  },
+
+  "pages": [
+    {
+      "pageId": "001",
+      "pageName": "Example Page 1",
+      "shortText": "This is the text of the example page.",
+      "longText": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+    }
+  ]
+
+}
