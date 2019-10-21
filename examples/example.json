@@ -1,16 +1,144 @@
 {
-  "wikiName": "Example 1",
   "wikiId": "001",
-  "theme": {
-    "backgroundColor": "0xFF123456"
+  "wikiName": "Example 1",
+  "wikiTheme": {
+    "backgroundColor": "#123456",
+    "scaffoldBackgroundColor": "#123444"
   },
 
-  "pages": [
+  "wikiPages": [
     {
       "pageId": "001",
       "pageName": "Example Page 1",
-      "shortText": "This is the text of the example page.",
-      "longText": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+      "abstract": "This is the text of the example page.",
+      "facts": [
+        { "factName" :  "Words",
+          "factValue" : "100"
+        }, {
+          "factName" : "Text Type",
+          "factValue": "Lorem Ipsum"
+        }
+      ],
+      "sections": [
+        {
+          "sectionId" : "001",
+          "sectionTitle": "Section 1",
+          "sectionText": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. [1]",
+          "sectionReferences": [
+            {
+              "referenceId" : "1",
+              "referenceLink" : "https://www.loremipsum.de/",
+              "referenceText" : "Lorem Ipsum Generator"
+            }
+          ]
+        },
+        {
+          "sectionId" : "002",
+          "sectionTitle": "Section 2",
+          "sectionText": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy. [1] Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy. [2] ",
+          "sectionReferences": [
+            {
+              "referenceId" : "1",
+              "referenceLink" : "https://www.loremipsum.de/",
+              "referenceText" : "Lorem Ipsum Generator"
+            },
+            {
+              "referenceId" : "2",
+              "referenceLink" : "https://www.loremipsum.de/",
+              "referenceText" : "Lorem Ipsum Generator"
+            }
+          ]
+
+        }
+      ]
+     },{
+      "pageId": "002",
+      "pageName": "Example Page 2",
+      "abstract": "This is the text of the example page.",
+      "facts": [
+        { "factName" :  "Words",
+          "factValue" : "100"
+        }, {
+          "factName" : "Text Type",
+          "factValue": "Lorem Ipsum"
+        }
+      ],
+      "sections": [
+        {
+          "sectionId" : "001",
+          "sectionTitle": "Section 1",
+          "sectionText": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. [1]",
+          "sectionReferences": [
+            {
+              "referenceId" : "1",
+              "referenceLink" : "https://www.loremipsum.de/",
+              "referenceText" : "Lorem Ipsum Generator"
+            }
+          ]
+        },
+        {
+          "sectionId" : "002",
+          "sectionTitle": "Section 2",
+          "sectionText": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy. [1] Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy. [2] ",
+          "sectionReferences": [
+            {
+              "referenceId" : "1",
+              "referenceLink" : "https://www.loremipsum.de/",
+              "referenceText" : "Lorem Ipsum Generator"
+            },
+            {
+              "referenceId" : "2",
+              "referenceLink" : "https://www.loremipsum.de/",
+              "referenceText" : "Lorem Ipsum Generator"
+            }
+          ]
+
+        }
+      ]
+    },{
+      "pageId": "003",
+      "pageName": "Example Page 3",
+      "abstract": "This is the text of the example page.",
+      "facts": [
+        { "factName" :  "Words",
+          "factValue" : "100"
+        }, {
+          "factName" : "Text Type",
+          "factValue": "Lorem Ipsum"
+        }
+      ],
+      "sections": [
+        {
+          "sectionId" : "001",
+          "sectionTitle": "Section 1",
+          "sectionText": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. [1]",
+          "sectionReferences": [
+            {
+              "referenceId" : "1",
+              "referenceLink" : "https://www.loremipsum.de/",
+              "referenceText" : "Lorem Ipsum Generator"
+            }
+          ]
+        },
+        {
+          "sectionId" : "002",
+          "sectionTitle": "Section 2",
+          "sectionText": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy. [1] Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy. [2] ",
+          "sectionReferences": [
+            {
+              "referenceId" : "1",
+              "referenceLink" : "https://www.loremipsum.de/",
+              "referenceText" : "Lorem Ipsum Generator"
+            },
+            {
+              "referenceId" : "2",
+              "referenceLink" : "https://www.loremipsum.de/",
+              "referenceText" : "Lorem Ipsum Generator"
+            }
+          ]
+
+        }
+      ]
     }
   ]
 
