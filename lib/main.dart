@@ -16,6 +16,10 @@ class ThemeWrapper extends StatelessWidget {
           indicator: UnderlineTabIndicator(),
         ),
         scaffoldBackgroundColor: Color(0xFF0697F3),
+        floatingActionButtonTheme: FloatingActionButtonThemeData(
+          backgroundColor: Color(0xff344955),
+          foregroundColor: Color(0xff344955),
+        ),
         primaryColorDark: Color(0xFF700A66),
         indicatorColor: Color(0xff344955),
         accentColor: Color(0xFFF5E929),
@@ -56,7 +60,7 @@ class ThemeWrapper extends StatelessWidget {
           ),
         ),
         iconTheme: IconThemeData(
-          color: Color(0xFF0697F3),
+          color: Color(0xFFF70B6F),
         ),
         toggleableActiveColor: Color(0xFF0967F3),
       ),

@@ -1,7 +1,7 @@
 import 'package:wiki_viewer/model/wiki_fact.dart';
 
 class WikiFacts {
-  List<WikiFact> facts;
+  List<WikiFact> facts = List<WikiFact>();
 
   WikiFacts({this.facts});
 

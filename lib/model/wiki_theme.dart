@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class WikiTheme {
-  ThemeData wikiTheme;
+  ThemeData wikiTheme = ThemeData();
 
   WikiTheme({this.wikiTheme});
 

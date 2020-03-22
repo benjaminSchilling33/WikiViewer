@@ -5,12 +5,12 @@ import 'package:wiki_viewer/model/wiki_sections.dart';
 import 'package:wiki_viewer/model/wiki_theme.dart';
 
 class WikiPage extends StatelessWidget {
-  String wikiName;
-  String pageId;
-  String pageName;
-  String abstract;
-  WikiFacts facts;
-  WikiSections sections;
+  String wikiName = '';
+  String pageId = '';
+  String pageName = '';
+  String abstract = '';
+  WikiFacts facts = WikiFacts();
+  WikiSections sections = WikiSections();
 
   WikiPage({
     this.wikiName,

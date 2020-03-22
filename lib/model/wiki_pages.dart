@@ -4,7 +4,7 @@ import 'package:wiki_viewer/model/wiki_page.dart';
 import 'package:wiki_viewer/model/wiki_theme.dart';
 
 class WikiPages extends StatelessWidget {
-  List<WikiPage> pages;
+  List<WikiPage> pages = List<WikiPage>();
 
   WikiPages({this.pages});
 

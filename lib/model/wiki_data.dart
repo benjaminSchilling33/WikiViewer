@@ -2,7 +2,7 @@ import 'package:wiki_viewer/model/wiki.dart';
 import 'package:flutter/material.dart';
 
 class WikiData extends StatelessWidget {
-  List<Wiki> wikis;
+  List<Wiki> wikis = List<Wiki>();
 
   WikiData({this.wikis});
 

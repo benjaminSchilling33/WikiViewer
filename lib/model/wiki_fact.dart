@@ -1,6 +1,6 @@
 class WikiFact {
-  String factName;
-  String factValue;
+  String factName = '';
+  String factValue = '';
 
   WikiFact({
     this.factName,

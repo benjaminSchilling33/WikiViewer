@@ -4,21 +4,23 @@ import 'package:wiki_viewer/model/wiki_pages.dart';
 import 'package:wiki_viewer/model/wiki_theme.dart';
 
 class Wiki extends StatelessWidget {
-  String wikiId;
-  String wikiName;
-  WikiTheme wikiTheme;
-  WikiPages wikiPages;
+  String wikiId = '';
+  String wikiName = '';
+  WikiTheme wikiTheme = WikiTheme();
+  WikiPages wikiPages = WikiPages();
 
   Wiki({this.wikiId, this.wikiName, this.wikiTheme, this.wikiPages});
 
   factory Wiki.fromJson(var json) {
     return Wiki(
-      wikiId: json['wikiId'],
-      wikiName: json['wikiName'],
-      wikiTheme: WikiTheme.fromJson(json['wikiTheme']),
+      wikiId: json['wikiId'] == null ? '' : json['wikiId'],
+      wikiName: json['wikiName'] == null ? '' : json['wikiName'],
+      wikiTheme: json['wikiTheme'] == null
+          ? WikiTheme()
+          : WikiTheme.fromJson(json['wikiTheme']),
       wikiPages: WikiPages.fromJson(
-        json['wikiPages'],
-        json['wikiName'],
+        json['wikiPages'] == null ? '' : json['wikiPages'],
+        json['wikiName'] == null ? '' : json['wikiName'],
       ),
     );
   }
